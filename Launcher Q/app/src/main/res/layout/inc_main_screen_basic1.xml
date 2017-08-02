@@ -11,18 +11,17 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/inc_basic_clock_isam"
+            android:id="@+id/inc_main_screen_tv_date"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:gravity="bottom"
-            android:text="오후" />
+            android:layout_height="wrap_content"
+            android:text="7월 26일 수요일" />
 
         <TextView
-            android:id="@+id/inc_basic_clock_time"
+            android:id="@+id/inc_main_screen_tv_battery"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="5:02"
-            android:textSize="70dp" />
+            android:text="  80%" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -31,17 +30,18 @@
         android:orientation="horizontal">
 
         <TextView
-            android:id="@+id/inc_basic_clock_date"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="7월 26일 수요일" />
-
-        <TextView
-            android:id="@+id/inc_basic_clock_battery"
+            android:id="@+id/inc_main_screen_tv_isam"
+            android:gravity="bottom"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="  80%" />
+            android:text="오후" />
 
+        <TextView
+            android:id="@+id/inc_main_screen_tv_time"
+            android:textSize="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="5:02" />
     </LinearLayout>
 
 </LinearLayout>

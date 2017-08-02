@@ -3,13 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="kr.co.codersit.launcherq.MainActivity">
+    android:id="@+id/ac_main_fl_container"
+    tools:context="kr.co.codersit.launcherq.main.MainActivity">
 
     <RelativeLayout
         android:id="@+id/ac_main_rl_before_screen"
-        android:background="#baffd2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="#baffd2">
 
         <Button
             android:id="@+id/ac_main_bt_testbtn"
@@ -20,13 +21,13 @@
             android:text="Button" />
 
         <include
-            android:id="@+id/ac_main_inc_basic_clock"
-            layout="@layout/include_basic_clock1"
+            android:id="@+id/ac_main_inc_screen"
+            layout="@layout/inc_main_screen_basic1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="30dp" />
+            android:layout_marginTop="160dp" />
 
     </RelativeLayout>
 
@@ -38,4 +39,5 @@
         android:visibility="invisible">
 
     </RelativeLayout>
+
 </FrameLayout>
